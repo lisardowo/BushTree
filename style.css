@@ -1,0 +1,188 @@
+
+@font-face {
+    font-family: 'FuentePrueba';
+    src: url('./arcade-neue.ttf');
+   
+}
+
+@media screen and (min-width: 810px){
+    
+}
+ body{
+        background-color: #0f241f ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;   /* centers horizontally */
+        justify-content: flex-start; /* start at the top */
+        min-height: 100vh;   
+        padding-left:16%;  
+    }
+    a{
+        text-decoration: none;
+    }
+
+    #title h1{
+        color: rgb(255, 255, 255) !important;
+        font-size: large;
+        font-family: FuentePrueba;
+        padding-left: 30%;
+    }
+    #title h2{
+        color: rgb(255, 255, 255) !important;
+        font-size: medium;
+        padding-left: 12%;
+        font-family: FuentePrueba;
+    }
+    #github-svg{
+        width: 25%;
+        height: 25%;
+        padding-bottom: 2%;
+    }
+    #steam-svg{
+        width: 22%;
+        height: 22%;
+        padding-bottom:2%;
+    }
+    #spotify-svg{
+        width: 22%;
+        height: 22%;
+        padding-bottom:2%;
+    }
+    #instagram-svg{
+        width: 22%;
+        height: 22%;
+        padding-bottom:2%;
+    }
+    #icons{
+        display: block;
+        margin-top: 6%;
+        width: 45%;
+        margin-left:20%;
+        
+    }
+    .h1-Link{
+        color: black !important;
+        font-size: small;
+        text-align: center;
+    }
+    .linkContainer{
+        overflow-x: hidden;
+        font-family: 'FuentePrueba', 'sans-serif';
+        position: relative;
+        width: 280px;
+        height: 120px;
+        margin-top: 4%;
+        background-color: #cff9d4;
+        border-radius: 12px;
+    }
+
+    .pfp-container { 
+        margin-top: 80px;
+        max-width: 100px;
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        border-radius: 50%;
+        display: grid;
+        margin-left: 35%;
+    }
+
+    .pfp-image {
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    
+
+
+
+@media screen and (max-width: 800px) {
+    body{
+        background-color: #0f241f ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;   /* centers horizontally */
+        justify-content: flex-start; /* start at the top */
+        min-height: 100vh;   
+        padding-left:16%;  
+    }
+    a{
+        text-decoration: none;
+    }
+    #title h1{
+        color: rgb(255, 255, 255) !important;
+        font-size: medium;
+        padding-left: 16%;
+        font-family: FuentePrueba;
+    }
+    #title h2{
+        color: rgb(255, 255, 255) !important;
+        font-size: x-small;
+        
+        font-family: FuentePrueba;
+    }
+    #github-svg{
+        width: 25%;
+        height: 25%;
+        padding-bottom: 2%;
+    }
+    #steam-svg{
+        width: 22%;
+        height: 22%;
+        padding-bottom:2%;
+    }
+    #spotify-svg{
+        width: 22%;
+        height: 22%;
+        padding-bottom:2%;
+    }
+    #instagram-svg{
+        width: 22%;
+        height: 22%;
+        padding-bottom:2%;
+    }
+    #icons{
+        display: block;
+        margin-top: 6%;
+        width: 45%;
+        margin-left:18%;
+        
+    }
+    .h1-Link{
+        color: black !important;
+        font-size: small;
+        text-align: center;
+    }
+    .linkContainer{
+        overflow-x: hidden;
+        font-family: 'FuentePrueba', 'sans-serif';
+        position: relative;
+        width: 280px;
+        height: 120px;
+        margin-top: 4%;
+        background-color: #cff9d4;
+        border-radius: 12px;
+    }
+
+    .pfp-container { 
+        margin-top: 80px;
+        max-width: 100px;
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        border-radius: 50%;
+        display: grid;
+        margin-left: 25%;
+    }
+
+    .pfp-image {
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    
+}
