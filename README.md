@@ -1,2 +1,6 @@
-Just a smoll linktree kinda link manager to store all my social media, feel free to fork it and modify it as you wish!.. 
-(if its good enough)
+So theres not really much to say here but I made a sort of 
+linktree knock off just because I thought would be a pretty good web devolement excercise since there was so long since I did it, it features pretty basic stuff, a changing "pfp" thingy that renders different images each time you reload the page and some pretty simple buttons that redirect to my media accounts.
+
+Tech stack is pretty simple, it was long since I did any sort of web Development so I just stick to good old js and css. Page is not fully responsible in mobile tho, I still have som stuff to figure, it looks a little off in some phones but still workks pretty nice, font was created from a guy I met on the internet so shoutout to the dressed mole rat ..
+
+The project overall help me remember all the basics of js and css, this project was abandoned a while ago, im just correcting some errors so I can ship. This project helped me start with typescript and react that were used in my other projects where I felt pretty confident.. I will work deeper in this but not soon
