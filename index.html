@@ -1,62 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta  charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chango</title>
-    <link rel="stylesheet" href="./style.css" /> <!-- referencia css, actualizar con cada version -->
-  <!-- Referencia script, actualizar con cada version -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chango</title>
+  
+  <link rel="stylesheet" href="./style.css" />
+  
+
 
 </head>
 <body>
-<div id = "Menu">
-<div class="pfp-container">
-    
-  <img src="Idle.png" alt="Profile Picture" id = 'pfp' class="pfp-image" >
-</div>
-<div id = "title">
-<h1>pp3nguin </h1>
-<h2>what yo looking for?</h2>
-</div>
-<div id="icons" >
-    
-    <a href="https://github.com/lisardowo" target="_blank">
-        <img src="assets/github.svg" id="github-svg">
-    </a>
-    <a href="https://steamcommunity.com/id/ughpenguin/" target="_blank">
-        <img src="assets/steam.svg" id="steam-svg">
-    </a>
-    <a href="https://open.spotify.com/user/31gbbsyu4n2zav23ulmiuh4ntztm?si=733c206b464f487d" target="_blank">
-        <img src="assets/spotify.svg" id="spotify-svg">
-    </a>
-    <a href="https://instagram.com/mem.2me" target="_blank">
-        <img src="assets/instagram.svg" id="instagram-svg">
-    </a>
-</div>
+  <div id="Menu">
+    <div class="pfp-container">
+      <img src="assets/pfp1.jpeg" alt="Profile Picture" id="pfp" class="pfp-image" />
+    </div>
 
+    <div id="title">
+      <h1></h1>
+      <h2></h2>
+    </div>
 
-<!-- Inicio Botones -->
-<button id ="Spotify" class = "linkContainer" >
-    <h1 class = h1-Link>Spotify</h1>
-</button>
-<button id = "Github" class = "linkContainer">
-    <h1 class = "h1-Link">Github</h1>
-</button>
-<button id ="Steam" class = "linkContainer" >
-    <h1 class = h1-Link>Steam</h1>
-</button>
-<button id = "Instagram" class = "linkContainer">
-    <h1 class = "h1-Link">Instagram</h1>
-</button>
+    <div id="icons"></div>
+    <div id="links"></div>
+  </div>
 
-<button id ="Pinterest" class = "linkContainer" >
-    <h1 class = h1-Link>Pinterest</h1>
-</button>
-<button id = "X" class = "linkContainer">
-    <h1 class = "h1-Link">X</h1>
-</button>
-
-
+    <script src="./profileConfiguration.js"></script>
+    <script src="./Botones.js"></script>
 
 </body>
-<script src="./Botones.js"></script>
+</html>
